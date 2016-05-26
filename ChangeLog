@@ -1,0 +1,20 @@
+
+
+2012-07-25 André Spindler  <info@studioneun.de>
+	* added field record_tstamp
+	* addes some type and value checks
+	* version 0.2.0
+
+
+2012-07-24 André Spindler  <info@studioneun.de>
+	* added eid to test resync queue
+	* version 0.1.0
+
+
+2012-07-23 André Spindler  <info@studioneun.de>
+	* added basic model resyncentries
+	* added queue library
+
+
+2012-07-16 André Spindler  <info@studioneun.de>
+	* initial code generated with kickstarter

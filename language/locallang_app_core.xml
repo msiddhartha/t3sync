@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for app 'st9fissync'
+		</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="stage.sync.proc.active">Currently active sync/re-sync process: </label>
+			<label index="stage.sync.proc.id">Sync/Re-Sync process Id: </label>
+			<label index="stage.sync.proc.blocked">Sync/Re-Sync process blocked!</label>
+			<label index="stage.sync.proc.error">Sync/Re-Sync process error: </label>
+			<label index="stage.sync.proc.fatalerror">Sync/Re-Sync process fatal error: </label>
+			<label index="stage.sync.proc.soap.client.initfail">SOAP Client could not be initialized</label>
+			<label index="stage.sync.proc.soap.channel.notsecured">SOAP channel not secured, not progressing with synchronization, process Id: </label>
+			<label index="stage.sync.proc.caretakerinstance.misconfig">Please check if extension "Caretaker Instance" is installed and Sync crypto_* variables are configured appropriately</label>
+			<label index="stage.sync.proc.eligibility.error">Sync Process Eligibility, ERROR:</label>
+			<label index="stage.sync.numqueryobjects">Total number of tracked syncable query objects to	process: </label>
+			<label index="stage.sync.querybatchsize">Query Objects batch size:</label>
+			<label index="stage.sync.numbatches">Number of batches to process:</label>
+			<label index="stage.sync.stage1_1.start">Starting Intranet <![CDATA[-->]]> Website (tracked query objects sync)...</label>
+			<label index="stage.sync.querytracking.id">Query object tracking Id:</label>
+			<label index="stage.sync.querytracking.details">Tracking details:</label>
+			<label index="stage.sync.querytracking.tablename">Table:</label>
+			<label index="stage.sync.querytracking.tablerowid">Row Id:</label>
+			<label index="stage.sync.querytracking.mmtablerowid">MM table row</label>
+			<label index="stage.sync.querytracking.toremotesuccess">Successfully synced to remote - </label>
+			<label index="stage.sync.querytracking.toremotefail">Failed to synced to remote - </label>
+			<label index="stage.sync.querycount.pass">Count of query objects successfully synced: </label>
+			<label index="stage.sync.querycount.fail">Count of query objects failed to be synced: </label>
+			<label index="stage.sync.request.postproc.fail">Request post process failure.</label>
+			<label index="stage.sync.request.postproc.callbackmethod.class">Class: </label>
+			<label index="stage.sync.request.postproc.callbackmethod">Call back method: </label>
+			<label index="stage.sync.stage1_1.finished">Finished Intranet <![CDATA[-->]]> Website (tracked query objects sync)...</label>
+
+			<label index="stage.sync.stage1_2.start">Starting Intranet <![CDATA[-->]]> Website (tracked DAM index objects and files sync)...</label>
+			<label index="stage.sync.transfer.filedatamaxsize">Max size of file data to be transferred per request/response (in bytes): </label>
+			<label index="stage.sync.dam.numqueryobjects">Total number of tracked syncable DAM index objects to	process: </label>
+			<label index="stage.sync.dam.numqueryobjects.final">Final number of tracked syncable DAM index objects eligible to process: </label>
+			<label index="stage.sync.dam.file.proc">DAM indexed file being processed: </label>
+			<label index="stage.sync.dam.index.id">DAM index Id: </label>
+			<label index="stage.sync.dam.index.tracking.id">Tracking Id: </label>
+			<label index="stage.sync.dam.tracking.id.reject">Tracking Id rejected (wait until next cycle): </label>
+
+			<label index="stage.sync.dam.file.size">File size: </label>
+			<label index="stage.sync.dam.file.exists">File exists: </label>
+			<label index="stage.sync.dam.file.exists.yes">Yes / </label>
+			<label index="stage.sync.dam.file.exists.no">No / </label>
+			<label index="stage.sync.dam.transfer.single">Single file transfer (in chunks) </label>
+			<label index="stage.sync.dam.fileread.offset">Read from offset: </label>
+			<label index="stage.sync.dam.fileread.maxlen">Max length to read: </label>
+
+			<label index="stage.sync.dam.transfer.cluster">Multiple files transfer(in batches) </label>
+			<label index="stage.sync.dam.file.addtobatch">File to be added to batch</label>
+			<label index="stage.sync.dam.file.batch.id">File set batch Id: </label>
+			<label index="stage.sync.dam.file.batch.failed">File batch processing failed!</label>
+			<label index="stage.sync.dam.file.batch.passed">File batch processing passed!</label>
+			<label index="stage.sync.dam.file.batch.mixedreswerrors">File batch processing finished, but with errors!</label>
+
+			<label index="stage.sync.dam.index.ineligible">Reset Tracking records Sync Eligibility for corresponding DAM indexes not required to be transferred (Tracking Id => DAM Index): </label>
+			<label index="stage.sync.dam.index.ineligible.reason.alreadysynced">Mark tracking records as already synced, either because DAM index pre-exists on the remote end and/or no relationship and reference found with a remote record, hence not required to be transferred (Tracking Id => DAM Index): </label>
+
+			<label index="stage.sync.dam.numfilebatches">Number of batches to be processed for file set transfer: </label>
+			<label index="stage.sync.dam.numbatches">Number of DAM index tracking batches to be processed: </label>
+			<label index="stage.sync.dam.index.sync.start">Starting DAM index tracking sync </label>
+
+			<label index="stage.sync.dam.index.querytracking.id">DAM index object tracking Id: </label>
+			<label index="stage.sync.dam.index.querytracking.details">DAM index object tracking details: </label>
+			<label index="stage.sync.dam.index.querytracking.tablename">DAM table: </label>
+			<label index="stage.sync.dam.index.querytracking.tablerowid">DAM index row Id: </label>
+			<label index="stage.sync.dam.index.querytracking.mmtablerowid">MM table row (DAM) </label>
+			<label index="stage.sync.dam.index.querytracking.toremotesuccess">DAM index successfully synced to remote - </label>
+			<label index="stage.sync.dam.index.querytracking.toremotefail">DAM index failed to synced to remote -  </label>
+			<label index="stage.sync.dam.index.querycount.pass">Count of DAM index objects successfully synced: </label>
+			<label index="stage.sync.dam.index.querycount.fail">Count of DAM index failed to be synced: </label>
+			<label index="stage.sync.dam.confirmation.ineligible.all">Nothing found as eligible for files / DAM index transfer (confirmed by the remote instance)</label>
+			<label index="stage.sync.dam.index.sync.finished">DAM index tracking sync finished! </label>
+
+			<label index="stage.sync.dam.filetransfer.start">File data transfer started... </label>
+			<label index="stage.sync.dam.filetransfer.byteswritten">Bytes transferred till now: </label>
+			<label index="stage.sync.dam.filetransfer.byteswritten.nullerror">No bytes information from remote end, so reject this tracking Id, (wait until next cycle): </label>
+
+			<label index="stage.sync.dam.filetransfer.chunkerror">Chunked file transfer error, aborting: </label>
+			<label index="stage.sync.dam.filetransfer.batcherror">File transfer error as part of batch: </label>
+			<label index="stage.sync.dam.filetransfer.byteswritten.error">Bytes transferred / file size mismatch: </label>
+			<label index="stage.sync.dam.filetransfer.success">File successfully transferred!</label>
+			<label index="stage.sync.dam.filetransfer.failure">File transfer failed!</label>
+			<label index="stage.sync.stage1_2.finished">Finished Intranet <![CDATA[-->]]> Website (tracked DAM index objects and files sync)...</label>
+			<label index="stage.sync.clear.remote.cache">Cleared all (RealURL + T3) remote caches!</label>
+
+			<label index="stage.resync.stage2_1.start">Starting Intranet <![CDATA[<--]]> Website (tracked query objects re-sync)...</label>
+
+			<label index="stage.resync.queryobjects.res.invalid">No re-syncable objects from remote</label>
+			<label index="stage.resync.numqueryobjects">Total number of tracked re-syncable query objects to process: </label>
+			<label index="stage.resync.post.replayactions">Re-Sync completed for query objects</label>
+			<label index="stage.resync.querytracking.id">Re-Synced Query object tracking Id: </label>
+			<label index="stage.resync.querytracking.details">Re-Synced tracking details:</label>
+			<label index="stage.resync.querytracking.tablename">Remote Table: </label>
+			<label index="stage.resync.querytracking.tablerowid">Row Id:</label>
+			<label index="stage.resync.querytracking.mmtablerowid">MM table row</label>
+			<label index="stage.resync.querytracking.fromremotesuccess">Successfully re-synced from remote - </label>
+			<label index="stage.resync.querytracking.fromremotefail">Failed to re-sync from remote - </label>
+			<label index="stage.resync.querycount.pass">Count of query objects successfully re-synced: </label>
+			<label index="stage.resync.querycount.fail">Count of query objects failed to be re-synced: </label>
+
+			<label index="stage.resync.stage2_1.finished">Finished Intranet <![CDATA[<--]]> Website (tracked query objects re-sync)...</label>
+
+
+			<label index="stage.resync.stage2_2.start">Starting Intranet <![CDATA[<--]]> Website (tracked 'Support' objects re-sync)...</label>
+
+			<label index="stage.resync.st9fissupport.queryobjects.res.invalid">Invalid 'Support' objects result set returned!</label>
+			<label index="stage.resync.st9fissupport.queryobjects.res.null">No 'Support' objects result set returned from remote!</label>
+			<label index="stage.resync.st9fissupport.filecount">Total number of tracked syncable 'Support' files to process: </label>
+			<label index="stage.resync.st9fissupport.querycount">Total number of tracked syncable 'Support' query objects to process: </label>
+			<label index="stage.resync.st9fissupport.file.proc">Processing (transfer and index) for 'Support' uploaded file: </label>
+			<label index="stage.resync.st9fissupport.file.size">'Support' uploaded file size: </label>
+			<label index="stage.resync.st9fissupport.query.tracking.id">'Support' query object, tracking Id: </label>
+			<label index="stage.resync.st9fissupport.query.tracking.details">'Support' query object, tracking details: </label>
+			<label index="stage.resync.st9fissupport.query.tracking.tablename">'Support' query object, table name: </label>
+			<label index="stage.resync.st9fissupport.query.tracking.tablerowid">'Support' query object, table row Id: </label>
+			<label index="stage.resync.st9fissupport.query.tracking.mmtablerowid">'Support' query object MM table row</label>
+			<label index="stage.resync.st9fissupport.query.tracking.fromremotesuccess">'Support' query object fetched and synced successfully!</label>
+			<label index="stage.resync.st9fissupport.query.tracking.fromremotefail">'Support' query object fetch and sync failure!</label>
+			<label index="stage.resync.st9fissupport.file.metainfo.null">'Support' object associated file meta information missing!</label>
+			<label index="stage.resync.st9fissupport.file.exists">'Support' object uploaded file exists: </label>
+			<label index="stage.resync.st9fissupport.file.exists.yes">Yes!</label>
+			<label index="stage.resync.st9fissupport.file.exists.no">No!</label>
+			<label index="stage.resync.st9fissupport.filetransfer.single">'Support' object uploaded file, request single file transfer (in chunks) </label>
+			<label index="stage.resync.st9fissupport.file.addtobatch">'Support' object uploaded file to be added to request batch</label>
+			<label index="stage.resync.st9fissupport.fileread.offset">'Support' object uploaded file, fetch from offset:  </label>
+			<label index="stage.resync.st9fissupport.fileread.maxlen">'Support' object uploaded file, request max length to read for this fetch cycle: </label>
+			<label index="stage.resync.st9fissupport.filetransfer.start">Requesting to fetch 'Support' object uploaded file to be synced from remote.. </label>
+			<label index="stage.resync.st9fissupport.filetransfer.chunkerror">Chunked 'Support' uploaded file transfer error, aborting: </label>
+			<label index="stage.resync.st9fissupport.filetransfer.chunkwriteerror">Failed to write chunk for fetched 'Support' uploaded file part!</label>
+			<label index="stage.resync.st9fissupport.filetransfer.byteswritten">Bytes fetched for 'Support' uploaded file till now: </label>
+			<label index="stage.resync.st9fissupport.filetransfer.success">'Support' object uploaded file successfully transferred!</label>
+			<label index="stage.resync.st9fissupport.filetransfer.fail">'Support' object uploaded file transfer failed!</label>
+			<label index="stage.resync.st9fissupport.filetransfer.byteswritten.error">'Support' object uploaded file write error, mismatch in bytes written, bytes fetched / bytes written: </label>
+			<label index="stage.resync.st9fissupport.query.tracking.id.reject">Tracking Id for rejected 'Support' object: </label>
+			<label index="stage.resync.st9fissupport.file.remote.exists.no">'Support' object uploaded file notified as not existing on remote server!</label>
+			<label index="stage.resync.st9fissupport.id.reject">Rejected 'Support' object Id : </label>
+			<label index="stage.resync.st9fissupport.corresponding.tracking.id">Corresponding tracking Id: </label>
+			<label index="stage.resync.st9fissupport.file.notuploaded">No file uploaded for 'Support' object! </label>
+			<label index="stage.resync.st9fissupport.id">'Support' object Id : </label>
+			<label index="stage.resync.st9fissupport.numfilebatches">Number of batches to be processed to fetch and sync 'Support' objects file set: </label>
+			<label index="stage.resync.st9fissupport.file.batch.id">'Support' objects file set batch Id: </label>
+			<label index="stage.resync.st9fissupport.filetransfer.batcherror">'Support' object file transfer error as part of batch: </label>
+			<label index="stage.resync.st9fissupport.filetransfer.filewriteerror">'Support' object file fetched but failed to write: </label>
+			<label index="stage.resync.st9fissupport.filetransfer.success">'Support' object file fetched and synced successfully, eligible for DAM index!</label>
+			<label index="stage.resync.st9fissupport.files.todamindex.count">Number of 'Support' object files eligible to be indexed by DAM: </label>
+			<label index="stage.resync.st9fissupport.files.todamindex">'Support' object file list eligible to be indexed by DAM: </label>
+			<label index="stage.resync.st9fissupport.files.damindex.successful.count">Count of 'Support' object files successfully indexed by DAM: </label>
+			<label index="stage.resync.st9fissupport.files.damindex.successful">DAM index details for 'Support' object file: </label>
+			<label index="stage.resync.st9fissupport.files.damindex.id">id: </label>
+			<label index="stage.resync.st9fissupport.files.damindex.title">title: </label>
+			<label index="stage.resync.st9fissupport.files.damindex.file_name">file name: </label>
+			<label index="stage.resync.st9fissupport.files.damindex.file_path">file path: </label>
+			<label index="stage.resync.st9fissupport.files.damindex.status">indexing status: </label>
+			<label index="stage.resync.st9fissupport.item.reject.final">Finalizing rejection of 'Support' object: </label>
+			<label index="stage.resync.st9fissupport.item.id">'Support' object Id : </label>
+			<label index="stage.resync.st9fissupport.querycount.pass">Count of 'Support' objects successfully synced: </label>
+			<label index="stage.resync.st9fissupport.querycount.fail">Count of 'Support' objects failed to be synced: </label>
+			<label index="stage.resync.st9fissupport.item.dam.mmref">Processing to add DAM relation: </label>
+			<label index="stage.resync.st9fissupport.item.dam.mmref.pass">DAM relation created successfully!</label>
+			<label index="stage.resync.st9fissupport.item.dam.mmref.alreadyexists">DAM relation exists already!</label>
+			<label index="stage.resync.st9fissupport.item.dam.mmref.fail">Failed to create DAM relation!</label>
+			<label index="stage.resync.st9fissupport.file.dam.index">DAM index Id: </label>
+
+			<label index="stage.resync.stage2_2.finished">Finished Intranet <![CDATA[<--]]> Website (tracked 'Support' objects re-sync)...</label>
+
+			<label index="stage.gc.proc.started">Garbage collection process started</label>
+			<label index="stage.gc.proc.completed">Garbage collection process completed</label>
+			<label index="stage.gc.proc.id">Garbage collector process Id: </label>
+			<label index="stage.gc.proc.processid">Process Id: </label>
+			<label index="stage.gc.proc.updated">Garbage collector updated process Id: </label>
+			<label index="stage.gc.proc.aborted">Garbage collector aborted!</label>
+
+			<label index="stage.gc.proc.no_active_process">No active Garbage collector process found.</label>
+			<label index="stage.gc.proc.currently_active">Garbage collector process currently running!</label>
+			<label index="stage.gc.proc.valid_timestamp">Successfully validated timestamp! Garbage collection eligible to run.</label>
+			<label index="stage.gc.proc.table_size_limit">Table size within limit! No need to proceed further with garbage collection.</label>
+			<label index="stage.gc.proc.error_timestamp_less_than_today">Only query objects older than a day can be processed by the Garbage collector!</label>
+
+
+			<label index="stage.gc.proc.start_processquery_1_1">Started processing query objects (isynced=1 and issyncscheduled=1)</label>
+			<label index="stage.gc.proc.end_processquery_1_1">End processing query objects (isynced=1 and issyncscheduled=1)</label>
+			<label index="stage.gc.proc.start_processquery_0_0">Started processing query objects (isynced=0 and issyncscheduled=0)</label>
+			<label index="stage.gc.proc.end_processquery_0_0">End processing query objects (isynced=0 and issyncscheduled=0)</label>
+			<label index="stage.gc.proc.start_processquery_affectedrows_0">Started processing query objects (affectedrows=0)</label>
+			<label index="stage.gc.proc.end_processquery_affectedrows_0">End processing query objects (affectedrows=0)</label>
+			<label index="stage.gc.proc.start_processquery_affectedrows_0">Started processing query objects (affectedrows=0)</label>
+			<label index="stage.gc.proc.end_processquery_affectedrows_0">End processing query objects (affectedrows=0)</label>
+			<label index="stage.gc.proc.start_processquery_errornumber_0">Started processing query objects (errornumber > 0)</label>
+			<label index="stage.gc.proc.end_processquery_errornumber_0">End processing query objects (errornumber > 0)</label>
+			<label index="stage.gc.proc.start_processquery_gcprocess">Started processing for GC process table.</label>
+			<label index="stage.gc.proc.end_processquery_gcprocess">End processing for GC process table.</label>
+
+			<label index="stage.gc.proc.start_tablebackup">Started table row backup process.</label>
+			<label index="stage.gc.proc.tablebackup.tablename">Table to be backed up: </label>
+			<label index="stage.gc.proc.tablebackup.filenumber">Back up batch file: </label>
+			<label index="stage.gc.proc.tablebackup.command">Command: </label>
+			<label index="stage.gc.proc.end_tablebackup">Table row backup process completed.</label>
+			<label index="stage.gc.proc.tablebackup_status">Table backup status: </label>
+			<label index="stage.gc.proc.tablebackup_status.pass">Pass!</label>
+			<label index="stage.gc.proc.tablebackup_status.fail">Failed!</label>
+			<label index="stage.gc.proc.tablebackup.batch.null">Invalid batch to be process while backup!</label>
+			<label index="stage.gc.proc.tablebackup.nothingtoprocess">Nothing to be processed during backup!</label>
+
+			<label index="stage.gc.proc.success_gc_table_backup">Successfully completed table row(s) backup!</label>
+			<label index="stage.gc.proc.err_gc_table_backup">Error while taking table row() backup!</label>
+			<label index="stage.gc.proc.backupfolder.exists">Intranet/local backup folder exists: </label>
+			<label index="stage.gc.proc.backupfolder.doesnotexist">Intranet/local backup folder does not exist!</label>
+			<label index="stage.gc.proc.remote.backupfolder.exists">Remote backup folder exists: </label>
+			<label index="stage.gc.proc.remote.backupfolder.doesnotexist">Remote backup folder does not exist!</label>
+
+
+			<label index="stage.gc.proc.synced_ids_can_be_deleted">Synced query object Id(s) eligible to be deleted: </label>
+			<label index="stage.gc.proc.resynced_ids_can_be_deleted">Re-Synced 	query object Id(s) eligible to be deleted: </label>
+			<label index="stage.gc.proc.synced_request_ids_can_be_deleted">Synced request Id(s) eligible to be deleted: </label>
+			<label index="stage.gc.proc.resynced_request_ids_can_be_deleted">Re-synced request Id(s) eligible to be deleted: </label>
+			<label index="stage.gc.proc.all_request_ids_can_be_deleted">All request Id(s) eligible to be deleted: </label>
+			<label index="stage.gc.proc.proc_ids_with_request_can_be_deleted">Sync process Id(s) found in request table eligible to be deleted: </label>
+			<label index="stage.gc.proc.proc_ids_without_request_can_be_deleted">Sync process Id(s) not in request table eligible to be deleted: </label>
+			<label index="stage.gc.proc.proc_ids_can_be_deleted">All Sync process Id(s) eligible to be deleted: </label>
+			<label index="stage.gc.proc.remotehandler_ids_can_be_deleted">Remote handler query object Id(s) eligible to be deleted: </label>
+			<label index="stage.gc.proc.affectedrows_0_ids_can_be_deleted">Query objects with sql affected rows = 0, Id(s) eligible to be deleted: </label>
+			<label index="stage.gc.proc.errornumber_0_ids_can_be_deleted">Query objects with sql error number > 0, Id(s) eligible to be deleted: </label>
+			<label index="stage.gc.proc.gcprocess_ids_can_be_deleted">Garabage collector process Id(s) eligible to be deleted: </label>
+			<label index="stage.gc.proc.start_deleteprocess">Start deleting record(s).</label>
+			<label index="stage.gc.proc.end_deleteprocess">End deleting record(s).</label>
+			<label index="stage.gc.proc.deleteprocess_error">Error while deleting record(s) from table: </label>
+			<label index="stage.gc.proc.deleteprocess_success">Successfully deleted record(s) from table: </label>
+			<label index="stage.gc.proc.deleteprocess_whereclause">Where clause: </label>
+			<label index="stage.gc.proc.table_size_before_delete">Table size before deleting records from table: </label>
+			<label index="stage.gc.proc.table_size_after_delete">Table size after deleting records from table: </label>
+			<label index="stage.gc.proc.delete_query_affected_rows">Numbers of records deleted from table: </label>
+
+			<label index="stage.gc.proc.soap.client.initfail">SOAP Client could not be initialized for Garbage collection!</label>
+			<label index="stage.gc.proc.soap.channel.notsecured">SOAP channel not secured, not progressing with Garbage collection, process Id: </label>
+			<label index="stage.gc.proc.caretakerinstance.misconfig">Please check if extension "Caretaker Instance" is installed and Sync crypto_* variables are configured appropriately.</label>
+			<label index="stage.gc.proc.eligibility.error">Garbage collection process eligibility error: </label>
+			<label index="stage.gc.proc.error">Garbage collector process error: </label>
+			<label index="stage.gc.proc.fatalerror">Garbage collector process fatal error: </label>
+			<label index="stage.gc.proc.unspecified.timerange">Garbage collector process query objects state - synced set to true / scheduled to be synced set to true: Unspecified time range</label>
+			<label index="stage.gc.proc.email_subject">Garbage collection report: Sync/Re-Sync tables cleanup</label>
+		</languageKey>
+	</data>
+</T3locallang>

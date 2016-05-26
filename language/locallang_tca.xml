@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'st9fissync'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_st9fissync_resync_entries">Resync entries</label>
+			<label index="tx_st9fissync_resync_entries.record_table">Table</label>
+			<label index="tx_st9fissync_resync_entries.record_uid">UID</label>
+			<label index="tx_st9fissync_resync_entries.record_action">Action</label>
+			<label index="tx_st9fissync_resync_entries.record_action.I.0">none/finished</label>
+			<label index="tx_st9fissync_resync_entries.record_action.I.1">currently processed</label>
+			<label index="tx_st9fissync_resync_entries.record_action.I.2">new</label>
+			<label index="tx_st9fissync_resync_entries.record_action.I.3">update</label>
+			<label index="tx_st9fissync_resync_entries.record_tstamp">Timestamp</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_st9fissync_resync_entries">Rücksynchronisation Einträge</label>
+			<label index="tx_st9fissync_resync_entries.record_table">Tabelle</label>
+			<label index="tx_st9fissync_resync_entries.record_uid">UID</label>
+			<label index="tx_st9fissync_resync_entries.record_action">Aktion</label>
+			<label index="tx_st9fissync_resync_entries.record_action.I.0">keine/abgeschlossen</label>
+			<label index="tx_st9fissync_resync_entries.record_action.I.1">aktuell in Bearbeitung</label>
+			<label index="tx_st9fissync_resync_entries.record_action.I.2">neu</label>
+			<label index="tx_st9fissync_resync_entries.record_action.I.3">aktualisieren</label>
+			<label index="tx_st9fissync_resync_entries.record_tstamp">Zeitpunkt</label>
+		</languageKey>
+	</data>
+</T3locallang>

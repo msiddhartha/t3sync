@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>Contents of scheduler csh</description>
+		<type>CSH</type>
+		<csh_table>_MOD_txst9fisbemoduleM1_txst9fissyncM1</csh_table>
+		<fileId>EXT:st9fissync/mod_sync/locallang_csh_st9fissync.xml
+		</fileId>
+		<labelContext type="array">
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index=".alttitle">Studio9 Synchronization</label>
+			<label index=".description">The Studio9 Synchronization module is a tool for
+				recording DB write actions and replaying on a remote server.
+			</label>
+			<label index=".syntax">The Studio9 Synchronization module is a tool for
+				recording DB write actions and replaying on a remote server.
+			</label>
+		</languageKey>
+	</data>
+</T3locallang>

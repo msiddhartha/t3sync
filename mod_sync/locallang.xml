@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for module 'tools_txschedulerM1'
+		</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="function.sync">Synchronization</label>
+			<label index="function.synchistory">Synchronization information</label>
+			<label index="function.syncsetupcheck">Synchronization setup check</label>
+			<label index="function.garbagecollector">Synchronization garbage collector</label>
+			<label index="function.queryversioninginfo">Query Versioning Information</label>
+			<label index="function.queryversioninginfo.dam">Query Versioning Info: DAM index/files</label>
+			<label index="function.queryversioninginfo.filtercriterion">Advanced filters:</label>
+
+			<label index="title">Studio9 TYPO3 Synchronization administration
+				module
+			</label>
+			<label index="any">[Any]</label>
+			<label index="set">Set</label>
+
+			<label index="begroup">Group[BE]:</label>
+			<label index="beuser">User[BE]:</label>
+			<label index="fegroup">Group[FE]:</label>
+			<label index="feuser">User[FE]:</label>
+
+			<label index="users">Users [FE/BE]:</label>
+			<label index="users.self">Self [BE]</label>
+			<label index="users.unknown">Unidentified users</label>
+
+			<label index="workspaces">Workspaces:</label>
+			<label index="workspaces.live">LIVE</label>
+			<label index="workspaces.draft">Draft</label>
+
+			<label index="time">Time:</label>
+			<label index="time.thisWeek">This week</label>
+			<label index="time.lastWeek">Last week</label>
+			<label index="time.last7Days">Last 7 days</label>
+			<label index="time.thisMonth">This month</label>
+			<label index="time.lastMonth">Last month</label>
+			<label index="time.last31Days">Last 31 days</label>
+			<label index="time.noLimit">No limit</label>
+			<label index="time.userdefined">User defined</label>
+
+			<label index="max">Max:</label>
+			<label index="max.20">20</label>
+			<label index="max.50">50</label>
+			<label index="max.100">100</label>
+			<label index="max.200">200</label>
+			<label index="max.500">500</label>
+			<label index="max.1000">1000</label>
+
+			<label index="action">Action:</label>
+			<label index="dbaction.insert">Insert</label>
+			<label index="dbaction.multiinsert">Multi Insert</label>
+			<label index="dbaction.update">Update</label>
+			<label index="dbaction.delete">Delete</label>
+			<label index="dbaction.truncate">Truncate</label>
+			<label index="dbaction.undetermined">Undetermined Query</label>
+
+			<label index="t3mode">T3 Mode:</label>
+			<label index="t3mode.fe">Frontend</label>
+			<label index="t3mode.be">Backend</label>
+			<label index="t3mode.be.ajax">Backend (Ajax)</label>
+			<label index="t3mode.be.cli">Backend (CLI)</label>
+			<label index="t3mode.cli">CLI Mode</label>
+			<label index="t3mode.ajax">Ajax Mode</label>
+			<label index="t3mode.install">Install Mode</label>
+			<label index="t3mode.undetermined">Undetermined Typo3 Mode</label>
+
+
+			<label index="isSynced">Synced?</label>
+			<label index="isSyncScheduled">Sync scheduled?</label>
+			<label index="isError">Versioning errors?</label>
+			<label index="listdamindexedfiles">List DAM indexed files</label>
+
+			<label index="qvilisting.table.rowheader.uid">UID</label>
+			<label index="qvilisting.table.rowheader.pid">PID</label>
+			<label index="qvilisting.table.rowheader.sysid">System ID</label>
+			<label index="qvilisting.table.rowheader.crtstamp">Created</label>
+			<label index="qvilisting.table.rowheader.updatetstamp">Updated</label>
+			<label index="qvilisting.table.rowheader.cruserid">Creator(UID)</label>
+			<label index="qvilisting.table.rowheader.updtuserid">Updater(UID)</label>
+			<label index="qvilisting.table.rowheader.querytext">Executed Query</label>
+			<label index="qvilisting.table.rowheader.querytype">Type of Query</label>
+			<label index="qvilisting.table.rowheader.queryaffectedrows">Rows affected</label>
+			<label index="qvilisting.table.rowheader.queryinfo">Query Info</label>
+			<label index="qvilisting.table.rowheader.queryexectime">Executed Query took(in ms)</label>
+			<label index="qvilisting.table.rowheader.queryerrnum">Query Error</label>
+			<label index="qvilisting.table.rowheader.queryerrmessage">Query Error Message</label>
+			<label index="qvilisting.table.rowheader.workspace">Workspace</label>
+			<label index="qvilisting.table.rowheader.typo3mode">Typo3 Mode</label>
+			<label index="qvilisting.table.rowheader.issynced">Is Synced already?</label>
+			<label index="qvilisting.table.rowheader.issyncscheduled">Scheduled for next sync?</label>
+			<label index="qvilisting.table.rowheader.requesturl">Request URL</label>
+			<label index="qvilisting.table.rowheader.clientip">User IP</label>
+			<label index="qvilisting.table.rowheader.rootid">Inclusion by Root (UID)</label>
+			<label index="qvilisting.table.rowheader.excludeid">Excluded by Root (UID)</label>
+			<label index="qvilisting.table.rowheader.tablename">Tablename</label>
+
+
+			<label index="qvinfo.link.text">Back To Lists</label>
+			<label index="qvinfo.link.titletext">Query Versioning List</label>
+			<label index="qvinfo.colkey.label.uid">UID</label>
+			<label index="qvinfo.colkey.label.refrecordId">Reference Record UID</label>
+			<label index="qvinfo.colkey.label.pid">PID</label>
+			<label index="qvinfo.colkey.label.sysid">System ID</label>
+			<label index="qvinfo.colkey.label.crdate">Created Date</label>
+			<label index="qvinfo.colkey.label.crtstamp">Created</label>
+			<label index="qvinfo.colkey.label.updatetstamp">Updated</label>
+			<label index="qvinfo.colkey.label.cruserid">Creator(UID)</label>
+			<label index="qvinfo.colkey.label.updtuserid">Updater(UID)</label>
+			<label index="qvinfo.colkey.label.querytext">Executed Query</label>
+			<label index="qvinfo.colkey.label.querytype">Type of Query</label>
+			<label index="qvinfo.colkey.label.queryaffectedrows">Rows affected</label>
+			<label index="qvinfo.colkey.label.queryinfo">Query Info</label>
+			<label index="qvinfo.colkey.label.queryexectime">Executed Query took(in ms)</label>
+			<label index="qvinfo.colkey.label.queryerrnum">Query Error</label>
+			<label index="qvinfo.colkey.label.queryerrmessage">Query Error Message</label>
+			<label index="qvinfo.colkey.label.workspace">Workspace</label>
+			<label index="qvinfo.colkey.label.typo3mode">Typo3 Mode</label>
+			<label index="qvinfo.colkey.label.issynced">Is Synced already?</label>
+			<label index="qvinfo.colkey.label.issyncscheduled">Scheduled for next sync?</label>
+			<label index="qvinfo.colkey.label.requesturl">Request URL</label>
+			<label index="qvinfo.colkey.label.clientip">User IP</label>
+			<label index="qvinfo.colkey.label.rootid">Inclusion by Root (UID)</label>
+			<label index="qvinfo.colkey.label.excludeid">Excluded by Root (UID)</label>
+			<label index="qvinfo.colkey.label.tablename">Tablename</label>
+			<label index="qvinfo.colkey.label.recordRevision">Record Revision</label>
+
+			<label index="qvilisting.yes">Yes</label>
+			<label index="qvilisting.no">No</label>
+			<label index="qvilisting.queryerrmessage.none">No Errors</label>
+			<label index="qvilisting.queryerrnum.none">-</label>
+
+			<label index="qvilisting.damresourcestable.rowheader.qvid">QV UID</label>
+			<label index="qvilisting.damresourcestable.rowheader.qvsysid">QV SysId</label>
+			<label index="qvilisting.damresourcestable.rowheader.tx_dam_uid">UID</label>
+			<label index="qvilisting.damresourcestable.rowheader.tx_dam_pid">PID</label>
+			<label index="qvilisting.damresourcestable.rowheader.tx_dam_title">Title</label>
+			<label index="qvilisting.damresourcestable.rowheader.tx_dam_tstamp">Timestamp</label>
+			<label index="qvilisting.damresourcestable.rowheader.tx_dam_crdate">Create Date</label>
+			<label index="qvilisting.damresourcestable.rowheader.tx_dam_cruser_id">Creator UID</label>
+			<label index="qvilisting.damresourcestable.rowheader.tx_dam_deleted">Deleted</label>
+			<label index="qvilisting.damresourcestable.rowheader.tx_dam_media_type">Media Type</label>
+			<label index="qvilisting.damresourcestable.rowheader.tx_dam_category">Category</label>
+			<label index="qvilisting.damresourcestable.rowheader.tx_dam_index_type">Index Type</label>
+			<label index="qvilisting.damresourcestable.rowheader.tx_dam_file_type">File type</label>
+			<label index="qvilisting.damresourcestable.rowheader.tx_dam_file_name">File name</label>
+			<label index="qvilisting.damresourcestable.rowheader.tx_dam_file_path">File path</label>
+			<label index="qvilisting.damresourcestable.rowheader.tx_dam_file_size">File size</label>
+			<label index="qvilisting.damresourcestable.rowheader.tx_dam_file_mtime">File Modified</label>
+			<label index="qvilisting.damresourcestable.rowheader.tx_dam_file_ctime">File Created</label>
+
+			<label index="appmessage.noresults">Nothing found</label>
+			<label index="appmessage.damresources.noresults">DAM indexes &amp; resources based on filter criterion: Nothing found.</label>
+			<label index="appmessage.invalidqvid">Invalid UID for versioned query</label>
+
+			<label index="appmessage.qvilisting.infoscreenintro">This is the list of all the queries that have been
+				executed. Click on the icon at the far left to check the details for
+				each of the actions/queries executed
+			</label>
+			<label index="appmessage.damreslisting.infoscreenintro">DAM indexed files for Indexed Query List. Click on the icon at the far left to check the details for
+				each of the actions/queries executed for the DAM indexes.
+				Legend: QV* - Query Versioning</label>
+
+			<label index="appmessage.qvidetails.infoscreenintro">This is the details of the query that has been
+				executed. Click on the icon at the far left to check the details for
+				version history of the affected record of the particular table
+			</label>
+
+			<label index="newwindow">[New Window]</label>
+
+			<label index="mod.sync.btn_start_synchronization">Start Synchronization Process</label>
+			<label index="mod.sync.btn_executing_synchronization">Currently Running Synchronization</label>
+
+			<label index="mod.sync.setupcheck.header_configuration">Server Configurations</label>
+			<label index="mod.sync.setupcheck.configuration">Configuration</label>
+			<label index="mod.sync.setupcheck.values">Values</label>
+			<label index="mod.sync.setupcheck.sequencer_tables">Sequencer Tables</label>
+			<label index="mod.sync.setupcheck.versioning_tables">Versioning Tables</label>
+			<label index="mod.sync.setupcheck.ignore_versioning_tables">Versioning Tables to be ignored</label>
+			<label index="mod.sync.setupcheck.versioning_roots">Versioning Root</label>
+			<label index="mod.sync.setupcheck.excluded_versioning_roots">Versioning Roots to be excluded</label>
+			<label index="mod.sync.setupcheck.ignore_tables_for_logging">Ignore tables for logging</label>
+			<label index="mod.sync.setupcheck.db_logger_priority">DB Logger priority</label>
+			<label index="mod.sync.setupcheck.remote_system_url">Remote system URL</label>
+			<label index="mod.sync.setupcheck.remote_system_http_login">Remote system HTTP login</label>
+			<label index="mod.sync.setupcheck.remote_system_http_password">Remote system HTTP password</label>
+			<label index="mod.sync.setupcheck.beuser_rights_for_synchronization">A BE-user with rights to the Synchronization services</label>
+			<label index="mod.sync.setupcheck.beuser_password_for_synchronization">Password for remote instance BE-user with rights to the Synchronization services</label>
+			<label index="mod.sync.setupcheck.no_of_query_sync_per_request">Number of queries to be synced per request/response?</label>
+			<label index="mod.sync.setupcheck.size_of_file">Size of file data to be transferred per request/response</label>
+			<label index="mod.sync.setupcheck.notification_email">Notification E-Mail for Sync related events</label>
+			<label index="mod.sync.setupcheck.notification_senderemail">Notification Sender E-Mail for Sync related events</label>
+			<label index="mod.sync.setupcheck.notification_emailsubject">Notification E-Mail Subject for Sync related events</label>
+			<label index="mod.sync.setupcheck.testemail_sender">Test Email Sender Email</label>
+			<label index="mod.sync.setupcheck.testemail_recipients">Test Email Recipients</label>
+			<label index="mod.sync.setupcheck.testemail_subject">Test Email Subject</label>
+
+			<label index="mod.sync.setupcheck.header_soapconnection">SOAP Connection</label>
+			<label index="mod.sync.setupcheck.soap_connectionstatus">SOAP Connection Status</label>
+			<label index="mod.sync.setupcheck.soap_successful_secure_connection">Successfully check secure SOAP connection</label>
+			<label index="mod.sync.setupcheck.soap_failed_secure_connection">Failed in secure SOAP Connection</label>
+
+			<label index="mod.sync.setupcheck.header_beuserlogin">BE User Login</label>
+			<label index="mod.sync.setupcheck.soap_beuser_successful_login">Successfully check BE User login</label>
+			<label index="mod.sync.setupcheck.soap_beuser_failed_login">Failed BE User login check</label>
+			<label index="mod.sync.setupcheck.soap_beuser_loginstatus">BE User Login Status</label>
+
+			<label index="mod.sync.setupcheck.test_email_header">Sync Test E-Mail</label>
+			<label index="mod.sync.setupcheck.test_email_sendstatus">Sync Test E-Mail Status</label>
+			<label index="mod.sync.setupcheck.test_email_statusmessage">Test email has been send to these email address:</label>
+			<label index="mod.sync.setupcheck.test_email_message">This is the test email from Synchronization process setup check.</label>
+
+			<label index="mod.sync.gc.header_cleanup">Synchronization Garbage Collector</label>
+			<label index="mod.sync.gc.till_date">Till Date (i.e. dd.mm.yyyy / 28.02.2013)</label>
+			<label index="mod.sync.gc.till_date_less_than">Note: Till Date should be less than today's date.</label>
+			<label index="mod.sync.gc.btn_start_gc">Start Garbage Collector</label>
+			<label index="mod.sync.gc.btn_running_gc">Currently Running Garbage Collector</label>
+
+			<label index="mod.sync.gc.err.invalid_date">Invalid date for Garbage collector</label>
+		</languageKey>
+	</data>
+</T3locallang>

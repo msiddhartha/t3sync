@@ -1,0 +1,125 @@
+# cat=test/enable/1; type=boolean; label=Enable test eID
+enable_test_eID = 0
+
+# cat=basic; type=input; label= Sequencer Tables
+dbsequencer_tables = fe_users,fe_groups,pages,pages_language_overlay,tt_content,tt_news,tt_news_cat,tt_news_related_mm,tt_news_cat_mm,tt_news_cache,tt_news_cache_tags,tt_address,tt_address_group,tt_address_tx_addressgroups_group_mm,tx_dam,tx_dam_cat,tx_dam_mm_cat,tx_dam_types_avail,tx_dam_mm_ref,tx_dam_log_index,tx_dam_file_tracking,tx_dam_selection,tx_dam_media_types,cache_sys_dmail_stat,sys_dmail,sys_dmail_group,sys_dmail_group_mm,sys_dmail_maillog,sys_dmail_category,sys_dmail_group_category_mm,sys_dmail_feuser_category_mm,sys_dmail_ttaddress_category_mm,sys_dmail_ttcontent_category_mm,tx_dmmjobcontrol_sector,tx_dmmjobcontrol_category,tx_dmmjobcontrol_discipline,tx_dmmjobcontrol_region,tx_dmmjobcontrol_education,tx_dmmjobcontrol_job_region_mm,tx_dmmjobcontrol_job_sector_mm,tx_dmmjobcontrol_job_category_mm,tx_dmmjobcontrol_job_discipline_mm,tx_dmmjobcontrol_job_education_mm,tx_dmmjobcontrol_job,tx_dmmjobcontrol_contact,tx_jpfaq_domain_model_question,tx_jpfaq_domain_model_category,tx_jpfaq_question_category_mm,tx_seminars_test,tx_seminars_test_mm,tx_seminars_seminars_place_mm,tx_seminars_seminars_speakers_mm,tx_seminars_seminars_speakers_mm_partners,tx_seminars_seminars_speakers_mm_tutors,tx_seminars_seminars_speakers_mm_leaders,tx_seminars_seminars_target_groups_mm,tx_seminars_seminars_categories_mm,tx_seminars_seminars_organizers_mm,tx_seminars_seminars_organizing_partners_mm,tx_seminars_seminars_payment_methods_mm,tx_seminars_seminars,tx_seminars_seminars_feusers_mm,tx_seminars_speakers,tx_seminars_speakers_skills_mm,tx_seminars_attendances,tx_seminars_sites,tx_seminars_organizers,tx_seminars_payment_methods,tx_seminars_event_types,tx_seminars_checkboxes,tx_seminars_seminars_checkboxes_mm,tx_seminars_attendances_checkboxes_mm,tx_seminars_lodgings,tx_seminars_seminars_lodgings_mm,tx_seminars_attendances_lodgings_mm,tx_seminars_foods,tx_seminars_seminars_foods_mm,tx_seminars_attendances_foods_mm,tx_seminars_timeslots,tx_seminars_timeslots_speakers_mm,tx_seminars_target_groups,tx_seminars_categories,tx_seminars_skills,tx_seminars_seminars_requirements_mm,tx_seminars_usergroups_categories_mm,tx_formhandler_log,tx_realurl_redirects,tx_realurl_uniqalias,tx_st9fisusermanagement_domain_model_accountchanges,tx_st9fisusermanagement_domain_model_functions,tx_st9fisdownloads_protocol,tx_st9fisdownloads_os,tx_st9fisdownloads_packages,tx_st9fisdownloads_item,tx_st9fissoftwaredelivery_domain_model_softwarepacket,tx_st9fissoftwaredelivery_domain_model_softwaretracking,tx_st9fissupport_domain_model_upload
+
+# cat=basic; type=input; label= Table Offset (=number of systems)
+dbsequencer_offset = 2
+
+# cat=basic; type=input; label= System Number (defines numer range / sequence - 1 to offset)
+dbsequencer_system = 1
+
+# cat=basic; type=input; label= Versioning Tables
+dbversioning_tables = fe_users,fe_groups,pages,pages_language_overlay,tt_content,tt_news,tt_news_cat,tt_news_related_mm,tt_news_cat_mm,tt_news_cache,tt_news_cache_tags,tt_address,tt_address_group,tt_address_tx_addressgroups_group_mm,tx_dam,tx_dam_cat,tx_dam_mm_cat,tx_dam_types_avail,tx_dam_mm_ref,tx_dam_log_index,tx_dam_file_tracking,tx_dam_selection,tx_dam_media_types,cache_sys_dmail_stat,sys_dmail,sys_dmail_group,sys_dmail_group_mm,sys_dmail_maillog,sys_dmail_category,sys_dmail_group_category_mm,sys_dmail_feuser_category_mm,sys_dmail_ttaddress_category_mm,sys_dmail_ttcontent_category_mm,tx_dmmjobcontrol_sector,tx_dmmjobcontrol_category,tx_dmmjobcontrol_discipline,tx_dmmjobcontrol_region,tx_dmmjobcontrol_education,tx_dmmjobcontrol_job_region_mm,tx_dmmjobcontrol_job_sector_mm,tx_dmmjobcontrol_job_category_mm,tx_dmmjobcontrol_job_discipline_mm,tx_dmmjobcontrol_job_education_mm,tx_dmmjobcontrol_job,tx_dmmjobcontrol_contact,tx_jpfaq_domain_model_question,tx_jpfaq_domain_model_category,tx_jpfaq_question_category_mm,tx_seminars_test,tx_seminars_test_mm,tx_seminars_seminars_place_mm,tx_seminars_seminars_speakers_mm,tx_seminars_seminars_speakers_mm_partners,tx_seminars_seminars_speakers_mm_tutors,tx_seminars_seminars_speakers_mm_leaders,tx_seminars_seminars_target_groups_mm,tx_seminars_seminars_categories_mm,tx_seminars_seminars_organizers_mm,tx_seminars_seminars_organizing_partners_mm,tx_seminars_seminars_payment_methods_mm,tx_seminars_seminars,tx_seminars_seminars_feusers_mm,tx_seminars_speakers,tx_seminars_speakers_skills_mm,tx_seminars_attendances,tx_seminars_sites,tx_seminars_organizers,tx_seminars_payment_methods,tx_seminars_event_types,tx_seminars_checkboxes,tx_seminars_seminars_checkboxes_mm,tx_seminars_attendances_checkboxes_mm,tx_seminars_lodgings,tx_seminars_seminars_lodgings_mm,tx_seminars_attendances_lodgings_mm,tx_seminars_foods,tx_seminars_seminars_foods_mm,tx_seminars_attendances_foods_mm,tx_seminars_timeslots,tx_seminars_timeslots_speakers_mm,tx_seminars_target_groups,tx_seminars_categories,tx_seminars_skills,tx_seminars_seminars_requirements_mm,tx_seminars_usergroups_categories_mm,tx_formhandler_log,tx_realurl_redirects,tx_realurl_uniqalias,tx_st9fisusermanagement_domain_model_accountchanges,tx_st9fisusermanagement_domain_model_functions,tx_st9fisdownloads_protocol,tx_st9fisdownloads_os,tx_st9fisdownloads_packages,tx_st9fisdownloads_item,tx_st9fissoftwaredelivery_domain_model_softwarepacket,tx_st9fissoftwaredelivery_domain_model_softwaretracking,tx_st9fissupport_domain_model_upload
+
+# cat=basic; type=input; label= Versioning Tables to be ignored
+dbversioning_ignore_tables = tx_extbase_cache_reflection_tags,tx_extbase_cache_object_tags,cf_cache_hash,cf_cache_hash_tags,sys_log,sys_history,sys_lockedrecords,be_sessions,cache_extensions,cache_hash,cache_imagesizes,cache_md5params,cache_pages,cf_cache_pagesection,cache_pagesection,cache_treelist,cache_typo3temp_log,cachingframework_cache_hash,cf_cache_pages,cachingframework_cache_hash_tags,cachingframework_cache_pages,cachingframework_cache_pagesection,cachingframework_cache_pagesection_tags,cachingframework_cache_pages_tags,fe_sessions,fe_session_data,index_config,index_debug,index_fulltext,index_grlist,index_phash,index_rel,index_section,index_stat_search,index_stat_word,index_words,link_cache,link_oldlinks,static_tsconfig_help,sys_be_shortcuts,sys_news,sys_note,sys_preview,sys_refindex,sys_registry,sys_workspace_cache,sys_workspace_cache_tags,sys_workspace_stage,be_users,tx_rsaauth_keys,cf_cache_pagesection_tags,cf_cache_pages_tags,cf_extbase_object,cf_extbase_reflection,tx_netzdeveloper_domain_model_serversettings,tx_netzdeveloper_domain_model_servercommits,tx_netzdbsequence_sequencer,tx_netzdeveloper_domain_model_settings,tx_netzdeveloper_domain_model_commits,tx_extbase_cache_object,sys_ter,tx_extbase_cache_reflection,tx_realurl_errorlog,tx_realurl_urldecodecache,tx_realurl_urlencodecache,tx_realurl_pathcache,tx_realurl_chashcache,tx_ter_extensionkeys,tt_news_cache,tx_thmailformplus_log,tx_scheduler_task,tx_solr_indexqueue_item,tx_devlog,tx_st9fisimport_log,tx_st9fisimport_meta_acl,tx_st9fisimport_meta_acl_permission, tx_st9fisimport_meta_objects, tx_st9fisimport_meta_files, tx_st9fisimport_stage
+
+# cat=basic; type=input; label= Versioning Root (comma separated list)
+dbversioning_root = 72
+
+# cat=basic; type=input; label= Versioning Roots to be excluded  (comma separated list)
+dbversioning_excludePids = 251
+
+# cat=basic; type=input; label= Versioning Records Store
+dbversioning_storagepid = 
+
+# cat=basic; type=input; label= Ignore tables for logging
+dblogger_ignore_tables = tx_extbase_cache_reflection_tags,tx_extbase_cache_object_tags,cf_cache_hash,cf_cache_hash_tags,sys_log,sys_history,sys_lockedrecords,be_sessions,cache_extensions,cache_hash,cache_imagesizes,cache_md5params,cache_pages,cf_cache_pagesection,cache_pagesection,cache_treelist,cache_typo3temp_log,cachingframework_cache_hash,cf_cache_pages,cachingframework_cache_hash_tags,cachingframework_cache_pages,cachingframework_cache_pagesection,cachingframework_cache_pagesection_tags,cachingframework_cache_pages_tags,fe_sessions,fe_session_data,index_config,index_debug,index_fulltext,index_grlist,index_phash,index_rel,index_section,index_stat_search,index_stat_word,index_words,link_cache,link_oldlinks,static_tsconfig_help,sys_be_shortcuts,sys_news,sys_note,sys_preview,sys_refindex,sys_registry,sys_workspace_cache,sys_workspace_cache_tags,sys_workspace_stage,be_users,tx_rsaauth_keys,cf_cache_pagesection_tags,cf_cache_pages_tags,cf_extbase_object,cf_extbase_reflection,tx_netzdeveloper_domain_model_serversettings,tx_netzdeveloper_domain_model_servercommits,tx_netzdbsequence_sequencer,tx_netzdeveloper_domain_model_settings,tx_netzdeveloper_domain_model_commits,tx_extbase_cache_object,sys_ter,tx_extbase_cache_reflection,tx_realurl_errorlog,tx_realurl_urldecodecache,tx_realurl_urlencodecache,tx_realurl_pathcache,tx_realurl_chashcache,tx_ter_extensionkeys,tt_news_cache,tx_thmailformplus_log,tx_scheduler_task,tx_solr_indexqueue_item,tx_devlog,tx_st9fisimport_log,tx_st9fisimport_meta_acl,tx_st9fisimport_meta_acl_permission, tx_st9fisimport_meta_objects, tx_st9fisimport_meta_files, tx_st9fisimport_stage
+
+# cat=basic; type=input; label= DB Logger priority: Choose one of the values - DEBUG=1/INFO=2/WARN=3/ERROR=4/FATAL=5/OFF=6
+dblogger_log_priority = 1
+
+# cat=basic; type=input; label= Remote system URL: Typically the Website T3 instance
+sync_remote_url = http://192.168.1.1/iris/
+
+# cat=basic; type=input; label= Remote system HTTP login
+sync_remote_httplogin = siddharthamandal
+
+# cat=basic; type=input; label= Remote system HTTP password
+sync_remote_httppassword = sidd0105hartha2010
+
+# cat=basic; type=input; label= A BE-user: With rights to the Synchronization services (Critical!!)
+sync_remote_beuser = syncsoap
+
+# cat=basic; type=input; label= Password for remote instance BE-user: With rights to the Synchronization services
+sync_remote_bepwd = 123456
+
+# cat=basic; type=input; label= Number of queries to be synced: per SOAP request/response cycle
+sync_query_batchsize = 50
+
+# cat=basic; type=input; label= Size of file data to be transferred: per SOAP request/response cycle (in bytes)
+sync_fileset_maxsize = 104857600
+
+# cat=basic; type=input; label= Notification E-Mail for Sync related events (comma separated for multiple recipients)
+sync_notification_email = siddharthamandal@infoservices.in, anisur@infoservices.in
+
+# cat=basic; type=input; label= Notification Sender E-Mail for Sync related events
+sync_notification_sender_email = siddharthamandal@infoservices.in
+
+# cat=basic; type=input; label= Notification E-Mail Subject for Sync related events
+sync_notification_email_subject = Sync/Re-Sync Notification
+
+# cat=basic; type=input; label= E-Mail message priority: Choose one of the values - NOTICE = -2 / INFO = -1  / OK = 0 / WARN = 1 / ERROR = 2. To receive all messages leave this as empty
+sync_notification_email_message_level = 
+
+# cat=basic; type=input; label= Send test email to this account (comma separated for multiple recipients)
+sync_test_email = kaushal.goenka@infoservices.in
+
+# cat=basic; type=input; label= Test email sender email
+sync_test_email_sender_email = siddharthamandal@infoservices.in
+
+# cat=basic; type=input; label= Test email subject
+sync_test_email_subject = Sync test email
+
+# cat=basic; type=input; label= Not used by the Sync process currently. PHP runtime configuration: this directive determines the time-out value of a socket-based stream, in seconds (set it to -1 for unlimited)
+default_socket_timeout = 
+
+# cat=basic; type=input; label= Used by the Sync process: As well as required during heavy duty IRRE TCA Db operations. PHP runtime configuration: This sets the maximum time in seconds a script is allowed to run before it is terminated by the parser
+max_execution_time = 36000
+
+# cat=basic; type=input; label= Used only during the Sync process. PHP runtime configuration: This sets the maximum amount of memory in bytes that a script is allowed to allocate. This helps prevent poorly written scripts for eating up all available memory on a server. Note that to have no memory limit, set this directive to -1
+memory_limit = -1
+
+# cat=basic; type=input; label= Used only during the Sync process. PHP runtime SOAP configuration option: Enables or disables the WSDL caching feature.
+soap_wsdl_cache_enabled = 0
+
+# cat=basic; type=input; label= Used only during the Sync process: Not active currently. PHP runtime SOAP configuration option: Sets the number of seconds (time to live) that cached files will be used instead of the originals.
+soap_wsdl_cache_ttl = 
+
+# cat=basic; type=input; label= Used only during the Sync process: Not active currently. PHP runtime SOAP configuration option: If soap.wsdl_cache_enabled is on, this setting determines the type of caching. Choose one of the values WSDL_CACHE_NONE (0), WSDL_CACHE_DISK (1), WSDL_CACHE_MEMORY (2) or WSDL_CACHE_BOTH (3)
+soap_wsdl_cache =
+
+# cat=basic; type=input; label= Used only during the Sync process: Not active currently. PHP runtime SOAP configuration option: Maximum number of in-memory cached WSDL files. Adding further files into a full memory cache will delete the oldest files from it.
+soap_wsdl_cache_limit =
+
+# cat=basic; type=input; label= Used only during the Sync process. PCRE's backtracking limit. This is set to a high value to apply regexes to large XML (e.g. - SOAP request XML with file data). This is directly proportional to 'sync_fileset_maxsize'.
+pcre_backtrack_limit = 500000000
+
+# cat=basic; type=string; label= Public key for this Sync instance : Required for Secure SOAP Communication. If this field is empty use the Extesion Manager Update Function.
+crypto_instance_publicKey=
+
+# cat=basic; type=string; label= Private key for this Sync instance :  Required for Secure SOAP Communication. If this field is empty use the Extesion Manager Update Function.
+crypto_instance_privateKey=
+
+# cat=basic; type=string; label= Public key of the other Sync instance : Required for Secure SOAP Communication. This key will encrypt the answers to the Sync server to ensure Privacy.
+crypto_client_publicKey=
+
+# cat=basic; type=input; label=Max 'tx_st9fissync_dbversioning_query' table size (in bytes) : If left blank it will not consider the table size.
+gc_desirable_max_size=524288000
+
+# cat=basic; type=input; label=It will delete records older then set days
+gc_olderthan_days=7
+
+# cat=basic; type=input; label=Will backup the deleting records for these tables from Intranet/Website
+gc_tablelist_dobackup=tx_st9fissync_dbversioning_query,tx_st9fissync_dbversioning_query_tablerows_mm,tx_st9fissync_request,tx_st9fissync_request_dbversioning_query_mm,tx_st9fissync_request_handler,tx_st9fissync_log,tx_st9fissync_process,tx_st9fissync_gc_process,tx_st9fissync_gc_log
+
+# cat=basic; type=input; label=Folder path root where the garbage collected table rows are backed up: If it is an absolute directory path, please ensure that web user is having appropriate permit to write into the existing parent directory. In the path /var/kordoba/gc_st9fissync, if "/var/kordoba/" exists then ensure for its write permit. Also non-absolute paths (e.g. gc_st9fissync) are supported in which case the backups would be stored directly under the Typo3 project directory/gc_st9fissync/.
+gc_backup_folderroot = gc_st9fissync
+
+# cat=basic; type=input; label=Backup command (add command absolute path if required)
+gc_backup_cmd = mysqldump
+
+# cat=basic; type=input; label=Backup table rows count per file. Break the backed-up data for main tables (only) into several files if there are a large volume of data to back up.
+gc_backup_num_tablerows_per_file = 5000
